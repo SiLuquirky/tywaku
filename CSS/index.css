@@ -1,0 +1,147 @@
+html, body{
+  margin : 0 auto;
+  height: 100%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  scroll-behavior: smooth;
+}
+.top{
+  display: inline-grid;
+  align-items: center;
+  grid-template-columns: auto auto;
+  grid-column-gap: 300px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #09071C;
+  color: white;
+  width: 100%;
+}
+
+.contactinfo {
+ color: white;
+
+}
+
+.navigationbar ul {
+  list-style: none;
+  text-align: center;
+  margin-top: -45px;
+  padding-bottom: 15px;
+}
+.navigationbar ul li{
+  display: inline-grid;
+  margin: 10px;
+}
+
+.navigationbar ul li a{
+  text-decoration: none;
+  color:black
+}
+
+.header{
+  width: 100%;
+  color: black;
+}
+
+.logo{
+padding: 10px 25px;
+}
+
+.intro p{
+  font-size: 20px;
+}
+
+.intro h1 {
+  font-size: 50px;
+}
+
+.intro{
+  background-image: url(../IMAGES/luxskys.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+  text-align: center;
+  paddiong-top: 150px;
+  color: white;
+}
+
+button{
+  font-size:10px;
+  padding:20px;
+  width:200px;
+  border:2px solid #CE9510;
+  background: #CE9510;
+  color: white;
+}
+.grid-container{
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  border: 1px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+hr {
+  width: 50px;
+  border-top: 1px solid #CE9510;
+}
+
+.Services {
+  font-size: 40px;
+  text-align:center;
+}
+
+.grid-container {
+  color: #CDCDCD;
+}
+
+#mission image {
+  width: 30%;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+}
+
+.benefits {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px 20px 20px ;
+}
+
+.mission {
+  background: #f2f3f8;
+  padding; 20px;
+  width: 100px;
+}
+
+.Clients{
+  background: #09071C;
+  color: white;
+  width: 80%;
+  font-size: 15px;
+
+
+}
+.Appointment{
+  font-size: 12px;
+}
+
+.gridcontainer2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  padding-left:   40px;
+}
